@@ -1,0 +1,27 @@
+{
+  "name": "ai-marker",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Snap & Mark: photograph a handwritten answer sheet and get it marked against the teacher's marking guide.",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "api": "node server/dev-server.js",
+    "build": "vite build",
+    "start": "node server/dev-server.js",
+    "test": "vitest run"
+  },
+  "engines": {
+    "node": ">=20.12"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^1.8.0",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^5.2.0",
+    "vite": "^6.4.5",
+    "vitest": "^4.1.12"
+  }
+}
