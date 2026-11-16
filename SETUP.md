@@ -73,3 +73,7 @@ If a safety check ever declines a script, the server automatically retries it on
 - `netlify/functions/mark.mjs`: the online marking endpoint (`/api/mark`).
 - `server/dev-server.js`: the same endpoint for running on your computer.
 - `src/`: the phone app (React).
+
+## Claude demo version (no API key)
+
+`claude-demo/snap-and-mark.html` is a one-file version of the app that runs inside Claude as a published artifact. It marks photos using the signed-in viewer's own Claude account, so it needs no API key or hosting. Results stay on that phone. It also has a **Plan** tab that explains the full product and the pilot. Use it for demos; use the main app above for the real product.
